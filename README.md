@@ -19,11 +19,3 @@ Or to deploy it to a publish instance, run
 Or to deploy only the bundle to the author, run
 
     mvn clean install -PautoInstallBundle
-
-## Testing
-
-There are three levels of testing contained in the project:
-
-* unit test in core: this show-cases classic unit testing of the code contained in the bundle. To test, execute:
-
-    mvn clean test
