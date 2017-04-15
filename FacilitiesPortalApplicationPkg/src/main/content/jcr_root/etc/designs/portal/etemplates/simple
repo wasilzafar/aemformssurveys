@@ -1,0 +1,9 @@
+Subject: ${subject}
+
+${message}
+<br>
+${links}
+<br>
+
+Thanks,
+Facilities Team

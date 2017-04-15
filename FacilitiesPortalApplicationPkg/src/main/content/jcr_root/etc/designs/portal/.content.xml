@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-10-30T23:55:19.161+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/core/templates/designpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sodexo Portal"
+        sling:resourceType="wcm/core/components/designer">
+        <contentpage jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2016-06-20T15:24:08.488+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[group:General,group:Adaptive Form,group:Document Services,group:Document Services Predicates,group:Form,group:Forms Workflow,group:Geometrixx Gov]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+            <topnav
+                jcr:lastModified="{Date}2016-06-21T21:38:56.039+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/breadcrumb"
+                delim="->"/>
+            <title
+                jcr:lastModified="{Date}2016-10-30T23:55:19.015+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                defaultType="large"/>
+        </contentpage>
+    </jcr:content>
+    <images/>
+    <static.css/>
+    <clientlibs/>
+    <etemplates/>
+</jcr:root>

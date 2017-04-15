@@ -1,0 +1,89 @@
+html, body {
+  font:normal 15px Trebuchet MS, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-color: Cornsilk; */
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+#full-screen-background-image {
+  z-index: 999;
+  min-height: 20%;
+  min-width: 100%;
+  width: 100%;
+  height: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+    position: relative;
+    top: 25%;
+    left: 0;
+    width: 75%;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+#menuContainer{
+	    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 20%;
+    background-color: #181818;
+    white-space: nowrap;
+    overflow: visible;
+        z-index:1;
+}
+
+#bodyContainer{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 99%;
+    background-color: #A8A8A8;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+ul#menu {
+	position: fixed;
+    top: 25%;
+    width: 10%;
+    padding: 1%;
+    margin : 0;
+    white-space: nowrap;
+    overflow: visible;
+    list-style-type: none;
+    background-color: grey;
+}
+
+ul#menu li {
+    display:block;
+    padding: 0;
+    margin : 0;
+    box-shadow: 5px 5px 10px #888888;
+    
+}
+
+ul#menu li a {
+    color: white;
+    margin : 0;
+    padding: 5%;
+    display:inline-block;
+    width: auto;
+    text-align: center;
+	text-decoration: none;
+	font-size: 90%;
+	white-space: normal;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}

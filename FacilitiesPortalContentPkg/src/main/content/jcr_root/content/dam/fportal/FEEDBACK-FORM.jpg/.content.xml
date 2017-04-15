@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f36b0011-185b-46ab-94f3-7558b94ecc51">
+    <jcr:content
+        cq:name="FEEDBACK-FORM.jpg"
+        cq:parentPath="/content/dam/fportal"
+        dam:relativePath="fportal/FEEDBACK-FORM.jpg"
+        jcr:lastModified="{Date}2016-10-12T16:33:12.922+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-10-12T16:33:12.159+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}199"
+            dam:Physicalheightininches="{Decimal}1.8442211151123047"
+            dam:Physicalwidthindpi="{Long}199"
+            dam:Physicalwidthininches="{Decimal}8.266331672668457"
+            dam:Progressive="no"
+            dam:sha1="658472469bdf474cecf9abe5dc3e62489c5aec0c"
+            dam:size="{Long}23067"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-10-12T16:33:12.559+05:30"
+            jcr:lastModified="{Date}2016-10-12T16:33:12.558+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}367"
+            tiff:ImageWidth="{Long}1645"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

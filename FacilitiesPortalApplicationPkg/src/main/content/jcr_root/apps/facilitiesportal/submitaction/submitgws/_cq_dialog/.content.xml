@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Edit checkBox"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[af.authoring.dialog]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="GWS Submit Action"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <prefill
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/text"
+                text="Values to include with form submission"/>
+            <fullName
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                name="./fullUserName"
+                text="Full Name"
+                value="on"/>
+            <ldapId
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                name="./ldapId"
+                text="LDAP Id"
+                value="on"/>
+            <email
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                name="./userEmail"
+                text="Email"
+                value="on"/>
+        </items>
+    </content>
+</jcr:root>

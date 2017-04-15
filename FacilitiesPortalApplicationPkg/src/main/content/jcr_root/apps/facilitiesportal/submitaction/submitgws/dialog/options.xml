@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Widget"
+    autoWidth="{Boolean}true"
+    fieldDescription="Enter values in {Field Name}={Parameter Name} format."
+    fieldLabel="Mapping for passing field values as Thank you page request parameters"
+    name="./fieldParameterMapping"
+    typeHint="String[]"
+    xtype="multifield">
+    <fieldConfig
+        jcr:primaryType="nt:unstructured"
+        allowBlank="{Boolean}false"
+        xtype="textfield"/>
+</jcr:root>

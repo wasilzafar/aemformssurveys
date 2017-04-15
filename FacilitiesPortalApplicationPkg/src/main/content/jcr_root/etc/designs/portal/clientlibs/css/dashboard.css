@@ -1,0 +1,104 @@
+/* #### Dark Matter #### */
+#controls{
+	width : 50%;
+    display: inline
+}
+.dark-matter {
+width: 50%;
+display: inline-block;
+}
+
+.dark-matter input[type="text"] {
+    border: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: "white";
+}
+
+#containerChart{
+background: black;
+    opacity: 0.8;
+    min-width: 100%;
+    display: inline-block;    
+}
+
+
+#panelchart{
+    display: block;
+    max-width: 100%
+    }
+
+fieldset{
+	display :inline;
+	width : 90%;
+    background-color: grey;
+    border-style: none;
+    border-top: solid;
+}
+legend {
+    background-color: grey;
+    color: white;
+    white-space: nowrap;
+    overflow: visible;
+  }
+.button {
+	background-color: #696969;
+	border-width: thin;
+	border-radius: 5px;
+	color: white;
+	padding: 1%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 90%;
+	cursor: pointer;
+    box-shadow: 5px 5px 10px #888888;
+  clear: both;
+}
+
+.button:hover {
+	background-color: orange;
+}
+.button:active {
+	border-width: medium;
+}
+
+
+#surveys {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#surveys td, #surveys th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#surveys tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#surveys tr:hover {
+	background-color: orange;
+}
+
+#surveys th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #696969;
+	color: white;
+}

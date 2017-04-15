@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Widget"
+    fieldDescription="Enter the URL in the format {http://host:port/path/to/file}."
+    fieldLabel="URL for POST request"
+    hidden="true"
+    name="./restEndpointPostUrl"
+    xtype="textfield">
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        loadcontent="function(){guidelib.author.GuideExtJSDialogUtils.handleSubmitRESTEndpointPost.apply(this);}"/>
+</jcr:root>

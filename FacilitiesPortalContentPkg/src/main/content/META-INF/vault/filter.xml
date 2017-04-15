@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/GWSforms"/>
+    <filter root="/content/dam/fportal"/>
+    <filter root="/content/usergenerated/content/forms/af/Facilities-Portal"/>
+    <filter root="/content/usergenerated/srvfacilities"/>
+</workspaceFilter>

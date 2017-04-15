@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Submit to GWS Data Store"
+    jcr:primaryType="sling:Folder"
+    sling:resourceType="facilitiesportal/submitaction/submitgws"
+    guideComponentType="fd/af/components/guidesubmittype"
+    guideDataModel="basic,xfa,xsd"/>
